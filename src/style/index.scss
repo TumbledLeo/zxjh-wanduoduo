@@ -1,0 +1,221 @@
+body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td {
+  margin:0;
+  padding:0;
+  font-weight: normal;
+  
+  }
+h1, h2, h3, h4, h4, h5 {
+  margin:0;
+  padding:0;
+  font-weight: normal;
+  }
+body {
+  background:#fcfcfc;
+  font-family:Arial,PingFangSC-Regular,"Microsoft YaHei",sans-serif;
+  text-align:left;
+  background:#fbfbfb;
+  // font-family: PingFangSC-Regular, sans-serif;
+  }
+ol, ul {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    }
+a,a:hover{
+  text-decoration: none;
+  color:#000;
+  }
+img{
+margin:0;
+padding:0;
+font-size:0;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.cf:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.cf{zoom:1}
+
+//public
+.sou{
+  padding-left:20px;
+  padding-right:20px;
+  overflow: hidden;
+  input{
+    width:610px;
+    height:90px;
+    border:none;
+    background:#f3f3f3;
+    margin:30px 16px 20px 0;
+    font-size: 24px;
+    padding-left:16px;
+    letter-spacing: 2px;
+    color: #555555;
+
+  }
+  .soso{
+    width:35px;
+    height:35px;
+    display:inline-block;
+    position: absolute;
+    top: 56px;
+    right: 120px;
+    background:url(../images/soso.png);
+  }
+  a.no{
+    font-size: 30px;
+    color:#555555;
+  }
+  input::-webkit-input-placeholder {
+    　color:#e1e1e1;
+  }
+}
+.box{
+  // padding-left:20px;
+  // padding-right:20px;
+  position: relative;
+  padding-bottom:40px;
+  a{
+    display:block;
+  }
+  img{
+    margin:0 20px;
+    font-size: 0;
+    vertical-align:top;
+  } 
+  img.tit{
+    width:100%;
+    margin:0;
+  }
+  .des{
+    background:#fff;
+    padding:20px 20px 30px;
+    box-shadow: 0px 10px 10px #f2f2f2;
+  }
+  .des1{
+    padding-bottom:14px;
+  }
+  .shou{
+    color:#fff;
+    position: absolute;
+    top:354px;
+    right:30px;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  .zhe{
+    background: linear-gradient(to right, #f45455 , #fc7273); 
+    display:block;
+    width:150px;
+    height:70px;
+    font-size: 48px;
+    line-height:70px;
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    top:0;
+    left:36px;
+  }
+  h2{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  p.tit{
+    font-size: 24px;
+    margin-top:14px;
+    margin-bottom:24px;
+    span{
+      border:1px solid #e3e3e3;
+      padding:4px 14px;
+      margin-right:12px;
+      margin-top:10px;
+      display:inline-block;
+      color:#555555;
+    }
+  }
+  .right{
+    color:#ff523d;
+    font-size: 24px;
+    strong{
+      font-size: 60px
+    }
+  }
+}
+section{
+  
+  padding:30px 20px;
+  background:#fff;
+  h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:12px;
+  }
+  .p{
+    font-size: 24px;
+    color:#656565;
+    line-height:34px;
+    padding-bottom:20px;
+    border-bottom:1px dashed #dcdcdc;
+    //border-bottom:1px dotted  #dcdcdc;
+  };
+  ul{
+    li{
+      padding:20px  0;
+      border-bottom:1px solid #dcdcdc;
+      position: relative;
+      img{
+        margin-right:22px;
+        width:345px;
+      }
+      .lei{
+        background: linear-gradient(to right, #cfe73f , #f1ff9c); 
+        color:#000;
+        padding:0px 16px;
+        text-align: center;
+        line-height:40px;
+        position: absolute;
+        top:34px;
+        left:16px;
+        border-radius: 5px;
+        font-size: 22px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        //text-shadow:2px 2px 2px #656f23;
+      }
+      h5{
+        font-size: 36px;
+        width:326px;
+        line-height: 36px;
+      }
+      .pp{
+        font-size: 24px;
+        width:310px;
+        display:block;
+        span{
+        border:1px solid #e3e3e3;
+        padding:4px 14px;
+        margin-right:12px;
+        margin-top:10px;
+        display:inline-block;
+        color:#6c6c6c;
+        }
+      }
+      .right.sq{
+        text-align: right;
+        position: absolute;
+        right:0;
+        bottom:10px;
+        display:block;
+        color:#ff523d;
+        font-size: 24px;
+        strong{
+          font-size: 50px
+        }
+      }
+    }
+  }
+}
